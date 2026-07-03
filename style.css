@@ -1,0 +1,142 @@
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#app {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.option-row {
+    margin-bottom: 16px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.option-row label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+.option-label {
+    font-weight: bold;
+}
+
+.action-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.action-group label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.action-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.action-group button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-group button:hover {
+    background-color: #2980b9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* 縦に並べる */
+    align-items: center;
+    /* 中央揃え */
+    gap: 15px;
+    /* 各要素間のスペースを調整 */
+    width: 100%;
+    /* コンテナ全体の幅を統一 */
+}
+
+#kaomojiDisplay {
+    font-size: 2rem;
+    font-family: "MS PGothic", "Osaka", "sans-serif";
+    /* 顔文字が見やすいフォント */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.buttons button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #2980b9;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    min-height: 1.5em;
+    color: #555;
+}

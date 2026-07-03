@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ランダム顔文字コピー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>ランダム顔文字コピー</h1>
+        <p>ボタンを押すと、ランダムな顔文字がクリップボードにコピーされます。</p>
+
+        <div class="card">
+            <div class="option-row">
+                <span class="option-label">敬称:</span>
+                <label>
+                    <input type="radio" name="honorific" value="">
+                    敬称略
+                </label>
+                <label>
+                    <input type="radio" name="honorific" value="ちゃん">
+                    ちゃん
+                </label>
+                <label>
+                    <input type="radio" name="honorific" value="さん" checked>
+                    さん
+                </label>
+            </div>
+            <div class="action-group">
+                <label for="prefix1">接頭辞1:</label>
+                <textarea id="prefix1" rows="2" placeholder="例: お疲れ様です">おはよー
+                </textarea>
+                <button id="actionBtn1">接頭辞1でコピー</button>
+            </div>
+            <div class="action-group">
+                <label for="prefix2">接頭辞2:</label>
+                <textarea id="prefix2" rows="2" placeholder="例: こんにちは">おはようございます
+                </textarea>
+                <button id="actionBtn2">接頭辞2でコピー</button>
+            </div>
+            <div class="action-group">
+                <label for="prefix3">接頭辞3:</label>
+                <textarea id="prefix3" rows="2" placeholder="例: ありがとう">おはありです
+                </textarea>
+                <button id="actionBtn3">接頭辞3でコピー</button>
+            </div>
+            <div id="kaomojiDisplay">(・∀・)</div>
+            <p id="message">ここに結果が表示されます</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
