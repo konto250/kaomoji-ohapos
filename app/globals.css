@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+#app {
+    text-align: center;
+    width: 100%;
+    max-width: 560px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.option-row {
+    margin-bottom: 16px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.option-row label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option-label {
+    font-weight: bold;
+}
+
+.option-row select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.action-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.action-group label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.action-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.action-group button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.action-group button:hover:enabled {
+    background-color: #2980b9;
+}
+
+.action-group button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#kaomojiDisplay {
+    font-size: 2rem;
+    font-family: 'MS PGothic', 'Osaka', sans-serif;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    min-height: 1.5em;
+    color: #555;
+}
