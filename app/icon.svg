@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+    <title>ランダム顔文字コピー favicon</title>
+    <desc>青い角丸の背景に白い顔文字を配置したアイコン</desc>
+    <defs>
+        <linearGradient id="bg" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4aa3df" />
+            <stop offset="1" stop-color="#2980b9" />
+        </linearGradient>
+    </defs>
+    <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+    <circle cx="23" cy="25" r="4" fill="#ffffff" />
+    <circle cx="41" cy="25" r="4" fill="#ffffff" />
+    <path d="M20 41c3.5 4 7.6 6 12 6s8.5-2 12-6" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="4" />
+    <path d="M14 18l4 3" fill="none" stroke="#dff1fb" stroke-linecap="round" stroke-width="3" />
+    <path d="M50 18l-4 3" fill="none" stroke="#dff1fb" stroke-linecap="round" stroke-width="3" />
+</svg>
